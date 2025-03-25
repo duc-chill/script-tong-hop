@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "Key System",
         Description = "",
         KeyLink = "",
-        Keys = {"ok"},
+        Keys = {"2092012"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -22,8 +22,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=75321457357267",
-       Size = {60, 40},
-       Color = Color3.fromRGB(10, 10, 10),
+       Size = {30, 30},
+       Color = Color3.fromRGB(20, 10, 10),
        Corner = true,
        Stroke = false,
        StrokeColor = Color3.fromRGB(255, 0, 0)
