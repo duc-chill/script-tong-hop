@@ -9,8 +9,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "Key System",
         Description = "",
-        KeyLink = "i love you",
-        Keys = {"ong troi dep trai"},
+        KeyLink = "",
+        Keys = {""},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=75321457357267",
-       Size = {60, 60},
+       Size = {60, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
