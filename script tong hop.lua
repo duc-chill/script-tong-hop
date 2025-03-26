@@ -49,10 +49,16 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "aim đầu",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huybuda1/Anh-Con-PHD-Troll/refs/heads/main/AnhCon_TheNao_LaiManh.lua"))()
-  end                                                                                                                                                                })   AddButton(Tab1o, {
+  end       
+  })   AddButton(Tab1o, {
      Name = "hack tui tìm được trên mạng",
     Callback = function()
 	  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  end
+  })  AddButton(Tab1o, {
+     Name = "đi xuyên tường",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/duc-chill/Dixuyentuong/refs/heads/main/dixuyentuong1.txt'))()
   end
   })
 ----- Section 
