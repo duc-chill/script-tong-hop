@@ -25,7 +25,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        Size = {30, 30},
        Color = Color3.fromRGB(20, 10, 10),
        Corner = true,
-       Stroke = false,
+       Stroke = true,
        StrokeColor = Color3.fromRGB(255, 0, 0)
       })
       
@@ -48,7 +48,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
    })   AddButton(Tab1o, {
      Name = "aim đầu",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huybuda1/Anh-Con-PHD-Troll/refs/heads/main/AnhCon_TheNao_LaiManh.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huybuda1/Anh-Con-PHD-Troll/refs/heads/main/AnhCon_TheNao
   end       
   })   AddButton(Tab1o, {
      Name = "hack tui tìm được trên mạng",
@@ -64,4 +64,3 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ----- Section 
    
    Section = AddSection(Tab1o, {"ổn ko ? =)"})
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
