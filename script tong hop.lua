@@ -25,7 +25,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        Size = {30, 30},
        Color = Color3.fromRGB(20, 10, 10),
        Corner = true,
-       Stroke = true,
+       Stroke = false,
        StrokeColor = Color3.fromRGB(255, 0, 0)
       })
       
