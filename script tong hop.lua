@@ -3,14 +3,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Đông Đức",
-         Animation = "ĐỢI SÍU"
+         Animation = "😣😣"
          },
         Key = {
-        KeySystem = false,
-        Title = "Key System",
+        KeySystem = true,
+        Title = "nhập key vô đây nek cu",
         Description = "",
-        KeyLink = "",
-        Keys = {"2092012"},
+        KeyLink = "https://sites.google.com/view/web-key-script/home",
+        Keys = {"sang,vương,nhật,mạnh,bảoo"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "dead rials"})
-     
+     local Tab1o = MakeTab({Name = "blox fruit"})
 ------- BUTTON
     
     AddButton(Tab1o, {
