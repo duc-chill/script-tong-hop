@@ -36,7 +36,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
 ------- BUTTON(Tab3)
      AddButton(Tab3o, {
-     Name = "tp win+aim đầu+đi xuyên tường noclip",
+     Name = "j97 bỏ con",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
   end
