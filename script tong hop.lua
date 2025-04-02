@@ -6,7 +6,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "2012"
          },
         Key = {
-        KeySystem = true,
+        KeySystem = false,
         Title = "nhập key đê",
         Description = "nhanh đi",
         KeyLink = "",
