@@ -2,15 +2,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Đông Đức",
-         Animation = "😣😣"
+         Title = "ĐÔNG ĐỨC",
+         Animation = "2012"
          },
         Key = {
         KeySystem = true,
-        Title = "nhập key vô đây nek cu",
-        Description = "",
-        KeyLink = "https://sites.google.com/view/web-key-script/home",
-        Keys = {"sang,vương,nhật,mạnh,bảoo"},
+        Title = "nhập key đê",
+        Description = "nhanh đi",
+        KeyLink = "",
+        Keys = {"1234"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -21,19 +21,42 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=75321457357267",
-       Size = {30, 30},
-       Color = Color3.fromRGB(20, 10, 10),
+       Image = "http://www.roblox.com/asset/?id=128933802535491",
+       Size = {35, 30},
+       Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
        StrokeColor = Color3.fromRGB(255, 0, 0)
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "dead rials"})
-     local Tab2o = MakeTab({Name = "blox fruit"})
-------- BUTTON
-    
+     local Tab1o = MakeTab({Name = "chung"})
+     local Tab2o = MakeTab({Name = "dead rails"})
+     
+     
+------- BUTTON(Tab2)
+    AddButton(Tab2o, {
+     Name = "tp win+aim đầu+đi xuyên tường noclip",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/FixedPlease/refs/heads/main/Protected_7197551640341824.txt"))()
+  end
+  }) AddButton(Tab2o, {
+     Name = "script get key khó vcl",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NebulaHubOfc/Public/refs/heads/main/Loader.lua"))()
+  end
+  }) AddButton(Tab2o, {
+     Name = "đừng bấm",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Super-XXX-Source/DEAD-RAILS-/refs/heads/main/DEAD%20RAILS%20SUPRA%20HUB"))()
+  end
+  }) AddButton(Tab2o, {
+     Name = "afk và lụm bone",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
+  end
+  })
+------- BUTTON(Tab1)
     AddButton(Tab1o, {
      Name = "FIX LAG",
     Callback = function()
@@ -44,23 +67,26 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "SCRIPT",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
-  end 
-   })   AddButton(Tab1o, {
-     Name = "aim đầu",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huybuda1/Anh-Con-PHD-Troll/refs/heads/main/AnhCon_TheNao
-  end       
-  })   AddButton(Tab1o, {
-     Name = "hack tui tìm được trên mạng",
-    Callback = function()
-	  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-  end
-  })  AddButton(Tab1o, {
-     Name = "đi xuyên tường",
-    Callback = function()
-	  loadstring(game:HttpGet('https://raw.githubusercontent.com/duc-chill/Dixuyentuong/refs/heads/main/dixuyentuong1.txt'))()
   end
   })
+     AddButton(Tab1o, {
+     Name = "aim đầu",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huybuda1/Anh-Con-PHD-Troll/refs/heads/main/AnhCon_TheNao_LaiManh.lua"))()
+  end
+  })
+      AddButton(Tab1o, {
+     Name = "đi xuyên tường",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/duc-chill/Dixuyentuong/refs/heads/main/dixuyentuong1.txt"))()
+  end
+  }) AddButton(Tab1o, {
+     Name = "bay",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-v3-13879"))()
+  end
+  })
+  
 ----- Section 
    
-   Section = AddSection(Tab1o, {"ổn ko ? =)"})
+   Section = AddSection(Tab1o, {"end"})         
