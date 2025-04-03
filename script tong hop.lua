@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=116474889336065",
-       Size = {35, 30},
+       Size = {35, 35},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -39,6 +39,16 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "j97 bỏ con",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
+  end
+  }) AddButton(Tab3o, {
+     Name = "rubu v_v",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
+  end
+  }) AddButton(Tab3o, {
+     Name = "giống rubu",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb7"))()
   end
   })
 ------- BUTTON(Tab2)
@@ -96,6 +106,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   
 ----- Section 
    
-   Section = AddSection(Tab1o, {"end"})
-   Section = AddSection(Tab2o, {"end"})
-   Section = AddSection(Tab3o, {"end"})
+   Section = AddSection(Tab1o, {"sao ok ko"})
+   Section = AddSection(Tab2o, {"thích ko"})
+   Section = AddSection(Tab3o, {"hết !"})
