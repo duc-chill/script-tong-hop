@@ -40,15 +40,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
   end
-  }) AddButton(Tab3o, {
-     Name = "rubu v_v",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
-  end
-  }) AddButton(Tab3o, {
+  })  AddButton(Tab3o, {
      Name = "giống rubu",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb7"))()
+  end
+  }) AddButton(Tab3o, {
+     Name = "relz hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   end
   })
 ------- BUTTON(Tab2)
