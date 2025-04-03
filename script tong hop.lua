@@ -41,7 +41,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
   end
   })  AddButton(Tab3o, {
-     Name = "giống rubu",
+     Name = "rubu tiếng việt",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb7"))()
   end
@@ -49,6 +49,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "relz hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+  end
+  }) AddButton(Tab3o, {
+     Name = "rubu new",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RuBuRoblox.lua"))()
   end
   })
 ------- BUTTON(Tab2)
