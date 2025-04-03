@@ -31,48 +31,56 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "chung"})
-     local Tab2o = MakeTab({Name = "dead rails"})
-     local Tab3o = MakeTab({Name = "blox fruit"})
+     local Tab3o = MakeTab({Name = "dead rails"})
+     local Tab2o = MakeTab({Name = "blox fruit"})
+     local Tab4o = MakeTab({Name = "arise crossover nỗi dậy"})
 
-------- BUTTON(Tab3)
-     AddButton(Tab3o, {
+------- BUTTON(Tab4)
+     AddButton(Tab4o, {
+     Name = "ko biết !",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhangJunZ84/twvz/refs/heads/main/arisecrossover.lua"))()
+  end
+  })
+------- BUTTON(Tab2)
+     AddButton(Tab2o, {
      Name = "j97 bỏ con",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
   end
-  })  AddButton(Tab3o, {
+  })  AddButton(Tab2o, {
      Name = "rubu tiếng việt",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb7"))()
   end
-  }) AddButton(Tab3o, {
+  }) AddButton(Tab2o, {
      Name = "relz hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   end
-  }) AddButton(Tab3o, {
+  }) AddButton(Tab2o, {
      Name = "rubu new",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RuBuRoblox.lua"))()
   end
   })
-------- BUTTON(Tab2)
-    AddButton(Tab2o, {
+------- BUTTON(Tab3)
+    AddButton(Tab3o, {
      Name = "tp win+aim đầu+đi xuyên tường noclip",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/FixedPlease/refs/heads/main/Protected_7197551640341824.txt"))()
   end
-  }) AddButton(Tab2o, {
+  }) AddButton(Tab3o, {
      Name = "script get key khó vcl",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NebulaHubOfc/Public/refs/heads/main/Loader.lua"))()
   end
-  }) AddButton(Tab2o, {
+  }) AddButton(Tab3o, {
      Name = "đừng bấm",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Super-XXX-Source/DEAD-RAILS-/refs/heads/main/DEAD%20RAILS%20SUPRA%20HUB"))()
   end
-  }) AddButton(Tab2o, {
+  }) AddButton(Tab3o, {
      Name = "afk và lụm bone",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
