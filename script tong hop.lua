@@ -31,9 +31,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "chung"})
-     local Tab3o = MakeTab({Name = "dead rails"})
      local Tab2o = MakeTab({Name = "blox fruit"})
-     local Tab4o = MakeTab({Name = "arise crossover nỗi dậy"})
+     local Tab3o = MakeTab({Name = "dead rails"})
+     local Tab4o = MakeTab({Name = "arise crossover"})
 
 ------- BUTTON(Tab4)
      AddButton(Tab4o, {
@@ -71,12 +71,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/FixedPlease/refs/heads/main/Protected_7197551640341824.txt"))()
   end
   }) AddButton(Tab3o, {
-     Name = "script get key khó vcl",
+     Name = "script get key khó vcl nhưng xịn",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NebulaHubOfc/Public/refs/heads/main/Loader.lua"))()
   end
   }) AddButton(Tab3o, {
-     Name = "đừng bấm",
+     Name = "có auto lút đồ vào túi",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Super-XXX-Source/DEAD-RAILS-/refs/heads/main/DEAD%20RAILS%20SUPRA%20HUB"))()
   end
