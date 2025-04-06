@@ -115,6 +115,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     Callback = function()
 	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-v3-13879"))()
   end
+  }) AddButton(Tab1o, {
+     Name = "troll cá tháng tư",
+    Callback = function()
+	  loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+  end
   })
   
 ----- Section 
