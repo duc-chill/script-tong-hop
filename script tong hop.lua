@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "ĐÔNG ĐỨC",
-         Animation = "2012"
+         Title = "anh sang",
+         Animation = "🥰🥰"
          },
         Key = {
         KeySystem = false,
@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=116474889336065",
-       Size = {35, 35},
+       Size = {30, 30},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -85,6 +85,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
   end
+  }) AddButton(Tab3o, {
+     Name = "cực ngon",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))() 
+  end
   })
 ------- BUTTON(Tab1)
     AddButton(Tab1o, {
@@ -116,7 +121,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-v3-13879"))()
   end
   }) AddButton(Tab1o, {
-     Name = "troll cá tháng tư",
+     Name = "troll cá tháng tư😂😁😂",
     Callback = function()
 	  loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
   end
