@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "anh sang",
-         Animation = "🥰🥰"
+         Title = "đông duck",
+         Animation = "donan"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=116474889336065",
+       Image = "http://www.roblox.com/asset/?id=94947400279046",
        Size = {30, 30},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
