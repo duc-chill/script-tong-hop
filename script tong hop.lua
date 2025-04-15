@@ -66,6 +66,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 ------- BUTTON(Tab3)
     AddButton(Tab3o, {
+     Name = "telepot tesla",
+    Callback = function()
+	          loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()
+  end
+  })
+    AddButton(Tab3o, {
      Name = "tp win+aim đầu+đi xuyên tường noclip",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/FixedPlease/refs/heads/main/Protected_7197551640341824.txt"))()
