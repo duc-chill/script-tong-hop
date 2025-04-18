@@ -37,14 +37,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
 ------- BUTTON(Tab4)
      AddButton(Tab4o, {
-     Name = "ko biết !",
+     Name = "auto fram !",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhangJunZ84/twvz/refs/heads/main/arisecrossover.lua"))()
   end
   })
 ------- BUTTON(Tab2)
      AddButton(Tab2o, {
-     Name = "j97 bỏ con",
+     Name = "script jack",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
   end
@@ -66,7 +66,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 ------- BUTTON(Tab3)
     AddButton(Tab3o, {
-     Name = "telepot chill",
+     Name = "telepot all",
     Callback = function()
 		  loadstring(game:HttpGet('https://raw.githubusercontent.com/m00ndiety/dead-rails-teleport-everywhere/refs/heads/main/teleport%20all%20locations'))()
  end
@@ -83,12 +83,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/FixedPlease/refs/heads/main/Protected_7197551640341824.txt"))()
   end
   }) AddButton(Tab3o, {
-     Name = "script get key khó vcl nhưng xịn",
+     Name = "script ok",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NebulaHubOfc/Public/refs/heads/main/Loader.lua"))()
   end
   }) AddButton(Tab3o, {
-     Name = "có auto lút đồ vào túi",
+     Name = "có auto lút đồ vào túi.đơ",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Super-XXX-Source/DEAD-RAILS-/refs/heads/main/DEAD%20RAILS%20SUPRA%20HUB"))()
   end
@@ -98,7 +98,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
   end
   }) AddButton(Tab3o, {
-     Name = "cực ngon",
+     Name = "null fire",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))() 
   end
