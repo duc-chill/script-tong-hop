@@ -30,11 +30,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
+     local Tab5o = MakeTab({Name = "-_-"})
      local Tab1o = MakeTab({Name = "chung"})
      local Tab2o = MakeTab({Name = "blox fruit"})
      local Tab3o = MakeTab({Name = "dead rails"})
      local Tab4o = MakeTab({Name = "arise crossover"})
-
+------- BUTTON(Tab5)
+     hhhhhhelo
 ------- BUTTON(Tab4)
      AddButton(Tab4o, {
      Name = "auto fram !",
@@ -75,6 +77,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "telepot tesla",
     Callback = function()
 	          loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()
+  end
+  }) AddButton(Tab3o, {
+     Name = "afk và lụm bone",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/autobond"))()
   end
   })
     AddButton(Tab3o, {
@@ -133,6 +140,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-v3-13879"))()
   end
   }) AddButton(Tab1o, {
+     Name = "full chức năng",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/NA%20testing.lua"))()
+  end
+  })  AddButton(Tab1o, {
      Name = "troll cá tháng tư😂😁😂",
     Callback = function()
 	  loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
