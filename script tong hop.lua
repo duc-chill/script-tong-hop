@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "đông duck",
+         Title = "minh duck",
          Animation = "donan"
          },
         Key = {
@@ -65,6 +65,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
   })
 ------- BUTTON(Tab3)
+    AddButton(Tab3o, {
+     Name = "telepot chill",
+    Callback = function()
+		  loadstring(game:HttpGet('https://raw.githubusercontent.com/m00ndiety/dead-rails-teleport-everywhere/refs/heads/main/teleport%20all%20locations'))()
+ end
+  })
     AddButton(Tab3o, {
      Name = "telepot tesla",
     Callback = function()
