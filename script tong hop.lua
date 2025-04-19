@@ -30,7 +30,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab5o = MakeTab({Name = "-_-"})
+
      local Tab1o = MakeTab({Name = "chung"})
      local Tab2o = MakeTab({Name = "blox fruit"})
      local Tab3o = MakeTab({Name = "dead rails"})
@@ -100,7 +100,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Super-XXX-Source/DEAD-RAILS-/refs/heads/main/DEAD%20RAILS%20SUPRA%20HUB"))()
   end
   }) AddButton(Tab3o, {
-     Name = "afk và lụm bone",
+     Name = "afk và lụm bone cùi",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
   end
@@ -156,4 +156,3 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
    Section = AddSection(Tab1o, {"sao ok ko"})
    Section = AddSection(Tab2o, {"thích ko"})
    Section = AddSection(Tab3o, {"hết !"})
-   Section = AddSection(Tab5o, {"id tiktok(@thich.lq)"})
